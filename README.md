@@ -58,12 +58,12 @@ docker_self # docker目录
 
 #### 缺点
 
->* 镜像太大
-   FROM php:7.2-fpm
-   非 alpine的镜像，默认是以 ubanutu 为基础的，
-   可以使用 apt-get,docker-php-ext-*等命令
-   但生成的镜像 非常大
-   alpine镜像 只能 使用 apk 的方式安装软件包
+>* 镜像太大  
+   FROM php:7.2-fpm  
+   非 alpine的镜像，默认是以 ubanutu 为基础的，  
+   可以使用 apt-get,docker-php-ext-*等命令  
+   但生成的镜像 非常大  
+   alpine镜像 只能 使用 apk 的方式安装软件包  
 
 
 ## 待做
